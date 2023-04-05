@@ -1,6 +1,8 @@
 # Online_Group_Chatting_Application
 Online group chatting application with ability to create and join rooms, made in Python3 with Berkeley/POSIX socket API
 
+### License
+MIT Open Source Initiative
 
 A client/server network application that implements multi-group online chatting. The server code operates as a directory manager for online “chat rooms” that can be queried by the clients (i.e., the chat room users). The clients can dynamically create, delete and join chat rooms. After
 joining a chat room, the client software exchanges messages with other clients using
@@ -13,7 +15,7 @@ If you do not know, it can be obtained with terminal comand ipconfig (windows) o
 
 Start a terminal in the root folder and type python online_group_chatting_ClientServer.py -r Server to start a server or online_group_chatting_ClientServer.py -r Client to start a client. 
 
-# Commands can be entered in the client windows as follows:
+## Commands can be entered in the client windows as follows:
 
 connect : The client connects to the Server, if connected you can execute Server cmds shown in Server section bellow
 
@@ -30,7 +32,7 @@ chat room is output on the command line.
 While in chat mode, a defined control sequence ( <ctrl>) is used to exit chat
 mode and return to the main prompt.
 
-# Commands can be entered after connected to the server as follows:
+## Commands can be entered after connected to the server as follows:
 
 getdir : The server returns a copy of the current chat room directory (CRD).
 Each entry in the directory includes the chat room name, multicast IP adddress
