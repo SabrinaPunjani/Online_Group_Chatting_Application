@@ -13,7 +13,7 @@ If you do not know, it can be obtained with terminal comand ipconfig (windows) o
 
 Start a terminal in the root folder and type python online_group_chatting_ClientServer.py -r Server to start a server or online_group_chatting_ClientServer.py -r Client to start a client. 
 
-#Commands can be entered in the client windows as follows:
+# Commands can be entered in the client windows as follows:
 
 connect : The client connects to the Server, if connected you can execute Server cmds shown in Server section bellow
 
@@ -30,7 +30,7 @@ chat room is output on the command line.
 While in chat mode, a defined control sequence ( <ctrl>) is used to exit chat
 mode and return to the main prompt.
 
-#Commands can be entered after connected to the server as follows:
+# Commands can be entered after connected to the server as follows:
 
 getdir : The server returns a copy of the current chat room directory (CRD).
 Each entry in the directory includes the chat room name, multicast IP adddress
@@ -44,7 +44,7 @@ that <address> is an IP multicast address used by the clients for chat messages
 deleteroom <chat room name> : The CRDS removes the chat room entry
 from the CRD.
 
-#SCREENSHOT:
+# SCREENSHOT:
 
 ![Alt text](https://i.imgur.com/hOENKUO.png)
 
