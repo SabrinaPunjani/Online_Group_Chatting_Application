@@ -3,7 +3,7 @@ Online group chatting application with ability to create and join rooms, made in
 
 A client/server network application that implements multi-group online chatting. The server code operates as a directory manager for online “chat rooms” that can be queried by the clients (i.e., the chat room users). The clients can dynamically create, delete and join chat rooms. After
 joining a chat room, the client software exchanges messages with other clients using
-IP multicast communications.
+IP multicast communications and multithreading to handle clients.
 
 ### License
 MIT Open Source Initiative
