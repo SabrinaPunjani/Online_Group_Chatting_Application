@@ -19,7 +19,7 @@ Start a terminal in the root folder and type python online_group_chatting_Client
 
 connect : The client connects to the Server, if connected you can execute Server cmds shown in Server section bellow
 
-bye : This closes the client-to-CRDS connection, returning the user to the main command prompt.
+bye : This closes the client-to-CRDS connection, returning the user to the main command prompt.
 
 name <chat name> : This command sets the name that is used by the client when
 chatting, e.g., name Mel. All chat messages will be automatically prefixed with this
